@@ -48,7 +48,7 @@ public class SpringSecurityDemoAppApplication {
         user.setAuthorities(List.of(userAuthority, adminAuthority, moderAuthority));
 
         User user2 = new User();
-        user2.setUserName("admin_db2");
+        user2.setUserName("moder_db");
         user2.setFirstName("James");
         user2.setLastName("Brown");
         user2.setPassword(passwordEncoder.encode("pass"));
